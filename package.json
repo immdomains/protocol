@@ -1,0 +1,38 @@
+{
+  "name": "imm-domains-protocol",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --bail test/ulb"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "amorph": "^4.2.0",
+    "amorph-ascii": "^1.0.0",
+    "amorph-boolean": "^1.0.0",
+    "amorph-hex": "^3.0.1",
+    "amorph-number": "^2.0.0",
+    "bluebird": "^3.5.5",
+    "chai": "^4.2.0",
+    "chai-amorph": "^1.0.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-web3-bindings": "^0.1.2",
+    "clear": "^0.1.0",
+    "colors": "^1.3.3",
+    "delay": "^4.3.0",
+    "dotenv": "^8.0.0",
+    "ganache-cli": "^6.4.4",
+    "keythereum": "^1.0.4",
+    "mocha": "^5.2.0",
+    "prompt-promise": "^1.0.3",
+    "request-promise": "^4.2.4",
+    "solc": "^0.5.9",
+    "ultralightbeam": "^5.3.1",
+    "web3-providers-http": "^1.0.0-beta.37"
+  }
+}
